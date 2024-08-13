@@ -1,0 +1,39 @@
+body{
+    background-color: beige;
+
+}
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 80px;
+}
+
+button{
+    font-size: 38px;
+    margin-top: 60px;
+    width: 300px;
+    height: 100px;
+    margin-left: 30px;
+}
+
+#start-btn{
+    background-color: greenyellow;
+}
+
+#stop-btn{
+    background-color: red;
+}
+
+#reset-btn{
+    background-color: gray;
+}
